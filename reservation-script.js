@@ -1,4 +1,3 @@
-
 var DEFAULT_VALUES = {
     id: undefined,
     professor_name: "",
@@ -127,6 +126,9 @@ $(document).ready(function() {
             width: 'resolve'
         });
     }
+});
 
-    $("#reservation_data_provider").click(startProviding);
-})
+function load() { 
+    console.log("loaded");
+    // $("#reservation_data_provider").click(startProviding);
+}
