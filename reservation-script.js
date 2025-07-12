@@ -123,7 +123,7 @@ export function init() {
   const link = document.createElement("link");
   link.rel = "stylesheet";
   link.href =
-    "https://cdn.jsdelivr.net/gh/mageofpuding/reservation-script@d9cf7342c98bdadedf81326b1e00af537b997a0d/reservation-script.js";
+    "https://cdn.jsdelivr.net/gh/mageofpuding/reservation-script@main/reservation-script.css";
   link.type = "text/css";
   $("head").append(link);
 
