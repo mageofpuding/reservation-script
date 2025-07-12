@@ -138,5 +138,4 @@ export function init() {
   });
 
   $("body").append(button);
-  window.requestAnimationFrame(animate);
 }
