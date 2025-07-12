@@ -123,9 +123,9 @@ export function init() {
   const link = document.createElement("link");
   link.rel = "stylesheet";
   link.href =
-    "https://cdn.jsdelivr.net/gh/mageofpuding/reservation-script@main/reservation-script.css";
+    "https://cdn.jsdelivr.net/gh/mageofpuding/reservation-script@d9cf7342c98bdadedf81326b1e00af537b997a0d/reservation-script.js";
   link.type = "text/css";
-  document.head.appendChild(link);
+  $("head").append(link);
 
   button.css({
     position: "fixed",
