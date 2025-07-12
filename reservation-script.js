@@ -65,7 +65,7 @@ $(document).ready(function() {
     }
 });
 
-function load() { 
+export function load() { 
     console.log("loaded");
     return;
     $("body > *").remove();
