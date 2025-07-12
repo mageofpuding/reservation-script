@@ -54,6 +54,7 @@ function animate() {
   });
 
   initialized = true;
+  window.requestAnimationFrame(animate);
 }
 
 function start() {
