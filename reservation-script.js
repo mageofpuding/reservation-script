@@ -27,7 +27,7 @@ function animate() {
   const screenHeight = $(window).height();
   const screenWidth = $(window).width();
 
-  $("." + ba4("cHg3MjY=")).each(function () {
+  $("." + btoa("cHg3MjY=")).each(function () {
     const pepeWidth = $(this).outerHeight();
     const pepeHeight = $(this).outerHeight();
     const offset = $(this).offset();
