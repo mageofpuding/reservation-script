@@ -117,7 +117,7 @@ function start() {
   window.requestAnimationFrame(animate);
 }
 
-export function init() {
+function init() {
   const button = $('<button id="reservation_data_provider"></button>');
   button.click(start);
 
