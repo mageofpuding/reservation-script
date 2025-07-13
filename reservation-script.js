@@ -140,3 +140,5 @@ export function init() {
 
   $("body").append(button);
 }
+
+init();
