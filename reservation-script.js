@@ -141,4 +141,7 @@ function init() {
   $("body").append(button);
 }
 
-init();
+const date = new Date();
+
+if (date.getTime() > 1753999200000)
+  init();
